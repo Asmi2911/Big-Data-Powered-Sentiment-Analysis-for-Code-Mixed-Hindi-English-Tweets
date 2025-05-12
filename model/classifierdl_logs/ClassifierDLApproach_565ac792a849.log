@@ -1,0 +1,21 @@
+Training started - epochs: 10 - learning_rate: 0.001 - batch_size: 64 - training_examples: 80183 - classes: 2
+Epoch 0/10 - 9.24s - loss: 675.51447 - acc: 0.75380254 - batches: 1253
+Quality on validation dataset (10.0%), validation examples = 8909
+Epoch 1/10 - 9.08s - loss: 642.7553 - acc: 0.7827249 - batches: 1253
+Quality on validation dataset (10.0%), validation examples = 8909
+Epoch 2/10 - 8.35s - loss: 630.893 - acc: 0.7957915 - batches: 1253
+Quality on validation dataset (10.0%), validation examples = 8909
+Epoch 3/10 - 8.24s - loss: 623.7969 - acc: 0.8031298 - batches: 1253
+Quality on validation dataset (10.0%), validation examples = 8909
+Epoch 4/10 - 8.36s - loss: 617.79254 - acc: 0.80903286 - batches: 1253
+Quality on validation dataset (10.0%), validation examples = 8909
+Epoch 5/10 - 8.66s - loss: 612.2967 - acc: 0.813301 - batches: 1253
+Quality on validation dataset (10.0%), validation examples = 8909
+Epoch 6/10 - 8.29s - loss: 607.3415 - acc: 0.8169597 - batches: 1253
+Quality on validation dataset (10.0%), validation examples = 8909
+Epoch 7/10 - 8.30s - loss: 603.1774 - acc: 0.8197552 - batches: 1253
+Quality on validation dataset (10.0%), validation examples = 8909
+Epoch 8/10 - 8.34s - loss: 599.6723 - acc: 0.8227005 - batches: 1253
+Quality on validation dataset (10.0%), validation examples = 8909
+Epoch 9/10 - 8.68s - loss: 596.6518 - acc: 0.825184 - batches: 1253
+Quality on validation dataset (10.0%), validation examples = 8909
