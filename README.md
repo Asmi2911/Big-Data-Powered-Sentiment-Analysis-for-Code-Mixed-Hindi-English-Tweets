@@ -110,6 +110,15 @@ This project presents an end-to-end scalable big data pipeline that performs sen
 - 🧠 Explainability via SHAP/LIME for transparency in predictions.
 - 🤖 Semi-supervised labeling to auto-tag Hinglish tweets.
 
+## References
+[AI4Bharat Dataset](https://huggingface.co/datasets/ai4bharat/Mann-ki-Baat)
+
+Spark NLP by John Snow Labs
+
+IndicBERT
+
+Ekphrasis
+
 ## Run the Code
 
 ```bash
@@ -118,13 +127,4 @@ pip install spark-nlp==5.5.3 pyspark ekphrasis transformers
 
 # Step 2: Launch the Notebook
 jupyter notebook bigdata_proj.ipynb
-
-## References
-AI4Bharat Dataset
-
-Spark NLP by John Snow Labs
-
-IndicBERT
-
-Ekphrasis
 
