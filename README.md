@@ -2,14 +2,14 @@
 
 This project presents an end-to-end scalable big data pipeline that performs sentiment classification and trend detection on Hindi-English (Hinglish) code-mixed tweets. Using Apache Spark, HBase, Hive, and a fine-tuned IndicBERT model, the system handles linguistic complexity—such as transliteration, spelling variation, and code-switching—with high accuracy and scalability.
 
-## 🚀 Key Highlights
+## Key Highlights
 
 - Handles noisy, informal, multilingual social media text at scale.
 - Incorporates custom negation and POS-based features for deeper sentiment context.
 - Integrates Spark NLP, Ekphrasis, and PySpark MLlib for robust preprocessing and feature engineering.
 - Evaluated with IndicGLUE benchmark, achieving over **81% accuracy** and **81% F1 score**.
 
-## 📌 Objectives
+## Objectives
 
 - Build a scalable sentiment analysis pipeline for Hinglish tweets.
 - Handle real-world code-mixed complexity using Big Data tools.
@@ -17,7 +17,7 @@ This project presents an end-to-end scalable big data pipeline that performs sen
 - Enable semantic search and trend extraction via BM25 indexing.
 - Provide future-ready output via Hive for real-time dashboard integration.
 
-## 🧰 Technologies Used
+## Technologies Used
 
 | Layer               | Tools & Frameworks                                           |
 |---------------------|--------------------------------------------------------------|
@@ -29,20 +29,28 @@ This project presents an end-to-end scalable big data pipeline that performs sen
 | Evaluation          | Accuracy, F1 Score, IndicGLUE Benchmark                      |
 | Visualization       | Matplotlib, Seaborn, Excel Charts                            |
 
-## 🗂️ Repository Structure
+## Repository Structure
 
 ├── datasets/ # Cleaned and processed tweet datasets
+
 │ └── final_cleaned.csv
+
 ├── flow-graphs/ # Visual assets for result interpretation
+
 │ ├── bargraph_predicted_labels.png
+
 │ ├── evaluation_acc_f1.png
+
 │ └── pie_chart_predicted_labels.png
+
 ├── model/ # Trained IndicBERT model
+
 ├── bigdata_proj.ipynb # Main pipeline notebook
+
 └── README.md
 
 
-## 🔄 Project Pipeline
+## Project Pipeline
 
 ### 1. Data Collection & Storage
 - Dataset: [AI4Bharat – Mann Ki Baat](https://huggingface.co/datasets/ai4bharat/Mann-ki-Baat)
@@ -76,7 +84,7 @@ This project presents an end-to-end scalable big data pipeline that performs sen
 - POS accuracy compared across multiple Spark NLP models.
 
 
-## 📊 Visual Insights
+## Visual Insights
 
 | Chart Type            | Description                                  |
 |------------------------|----------------------------------------------|
@@ -86,7 +94,7 @@ This project presents an end-to-end scalable big data pipeline that performs sen
 | POS Comparison Chart   | Shows performance of POS taggers             |
 
 
-## 🧠 Challenges Solved
+## Challenges Solved
 
 - **Romanized Hindi Variation**: Built regex-based dictionary and transliteration pipeline.
 - **Negation Handling**: Manual lexicon and pattern detection to catch emotional reversals.
@@ -94,7 +102,7 @@ This project presents an end-to-end scalable big data pipeline that performs sen
 - **Outlier Filtering**: Penalized noisy tweets with high `NNN` POS tags.
 - **Memory Bottlenecks**: Managed DistilBERT inference through chunked processing and batch control.
 
-## 🔮 Future Scope
+## Future Scope
 
 - 🔤 Support for more Indian languages: Tamil, Bengali, Marathi, etc.
 - 📱 Expansion to platforms like Facebook, Instagram, YouTube.
@@ -102,7 +110,7 @@ This project presents an end-to-end scalable big data pipeline that performs sen
 - 🧠 Explainability via SHAP/LIME for transparency in predictions.
 - 🤖 Semi-supervised labeling to auto-tag Hinglish tweets.
 
-## 🧪 Run the Code
+## Run the Code
 
 ```bash
 # Step 1: Install Required Libraries
@@ -111,7 +119,7 @@ pip install spark-nlp==5.5.3 pyspark ekphrasis transformers
 # Step 2: Launch the Notebook
 jupyter notebook bigdata_proj.ipynb
 
-📚 References
+## References
 AI4Bharat Dataset
 
 Spark NLP by John Snow Labs
